@@ -1,0 +1,21 @@
+.bg-black {
+    background-color: black;
+}
+.sony-logo {
+    width: 60px;
+}
+.navbar-text {
+    color: black;
+    font-size: 0.9em;
+}
+.playstation-logo {
+    width: 40px;
+}
+.hamburger {
+    width: 1em;
+    height: 1em;
+    margin-bottom: 2px;
+}
+.access-button-bg {
+    background-color: rgb(54,54,54);
+}
