@@ -19,3 +19,36 @@
 .access-button-bg {
     background-color: rgb(54,54,54);
 }
+.hero-img {
+    margin-top: 100px;
+    height: 675px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-banner {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    margin: 0 auto;
+    width: 90%;
+}
+.hero-text {
+    width: 450px;
+}
+.returnal-logo {
+    width: 300px;
+}
+.buy-now-button{
+    background-color: #CD3D0F;
+}
+.thumbnail-game-logo {
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.thumbnail-game-logo:active {
+    border: 2px solid #0072CE;
+}
