@@ -6,7 +6,7 @@
 }
 .navbar-text {
     color: black;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 .playstation-logo {
     width: 40px;
@@ -22,11 +22,13 @@
 .hero-img {
     margin-top: 100px;
     height: 675px;
-    background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.pic-1 {
+    background-image: url(../img/jumbo-bg.png);
 }
 .hero-banner {
     position: absolute;
@@ -38,7 +40,7 @@
 .hero-text {
     width: 450px;
 }
-.returnal-logo {
+.hero-banner-img {
     width: 300px;
 }
 .buy-now-button{
@@ -51,4 +53,24 @@
 }
 .thumbnail-game-logo:active {
     border: 2px solid #0072CE;
+}
+.active, .unactive{
+    height: 240px;
+    cursor: pointer;
+}
+.active {
+    border-bottom: 2px solid #0072CE;
+}
+.unactive {
+    opacity: 0.5;
+}
+.pic-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+
+
+
+.bordo {
+    border: 2px solid red;
 }
