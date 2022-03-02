@@ -130,9 +130,6 @@
     outline: 2px solid black;
     outline-offset: -4px;
 }
-.logo-social:hover {   
-    border: 1px solid black;
-}
 footer {
     background-color: #00439C;
     min-height: 100vh;
