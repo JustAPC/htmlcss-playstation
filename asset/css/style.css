@@ -49,7 +49,6 @@
 .thumbnail-game-logo {
     border-radius: 20px;
     cursor: pointer;
-    padding: 5px;
 }
 .thumbnail-game-logo:active {
     border: 2px solid #0072CE;
@@ -67,7 +66,9 @@
 .pic-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
-
+.nuove-uscite {
+    background-color: rgb(31,31,31);
+}
 
 
 
