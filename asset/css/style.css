@@ -1,6 +1,9 @@
 .bg-black {
     background-color: black;
 }
+.pointer {
+    cursor: pointer;
+}
 .sony-logo {
     width: 60px;
 }
@@ -68,7 +71,7 @@
 .thumbnail-game-logo:active {
     border: 2px solid #0072CE;
 }
-.thumbnail-game-logo:hover {
+.tgl-1:hover {
     animation: tgl-movement 1s linear;
 }
 @keyframes tgl-movement {
@@ -111,7 +114,9 @@
     background-color: #D9DADC;
     color: #3A6CE5;
 }
-
+.bg-ps-now {
+    background-color: rgb(22,28,59);
+}
 .bordo {
     border: 2px solid red;
 }
