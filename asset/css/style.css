@@ -19,9 +19,12 @@
 .access-button-bg {
     background-color: rgb(54,54,54);
 }
+.hero-div {
+    position: relative;
+}
 .hero-img {
     margin-top: 100px;
-    height: 675px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -30,12 +33,17 @@
 .pic-1 {
     background-image: url(../img/jumbo-bg.png);
 }
-.hero-banner {
+.hero-banner1 {
     position: absolute;
-    bottom: 5%;
-    left: 5%;
+    top: 300px;
+    left: 0;
     margin: 0 auto;
-    width: 90%;
+}
+.hero-banner2 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    margin: 0 auto;
 }
 .hero-text {
     width: 450px;
@@ -46,15 +54,36 @@
 .buy-now-button{
     background-color: #CD3D0F;
 }
+.buy-now-button:hover {
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
 .thumbnail-game-logo {
     border-radius: 20px;
     cursor: pointer;
 }
+.tgl-active {
+    border: 2px solid #0072CE;
+}
 .thumbnail-game-logo:active {
     border: 2px solid #0072CE;
 }
+.thumbnail-game-logo:hover {
+    animation: tgl-movement 1s linear;
+}
+@keyframes tgl-movement {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-40px);
+    }
+}
+.info-button:hover {
+    outline: 2px solid rgb(93, 29, 124);
+    outline-offset: 3px;
+}
 .active, .unactive{
-    height: 50%;
     cursor: pointer;
 }
 .active {
@@ -63,14 +92,25 @@
 .unactive {
     opacity: 0.5;
 }
+.unactive:hover {
+    opacity: 1;
+}
+.unactive:hover span{
+    border-bottom: 2px solid #0072CE;
+}
 .pic-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .nuove-uscite {
     background-color: rgb(31,31,31);
 }
-
-
+.psplus-bg {
+    background-color: #BEBCBB;
+}
+.psplus-button {
+    background-color: #D9DADC;
+    color: #3A6CE5;
+}
 
 .bordo {
     border: 2px solid red;
