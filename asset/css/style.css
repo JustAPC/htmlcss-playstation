@@ -27,8 +27,20 @@
     background-color: rgb(54,54,54);
     outline-offset: 3px;
 }
-.hero-div {
-    position: relative;
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -69px;
+    margin-top: .125rem;    
+}
+.dropdown-menu-custom {
+    width: 101vw;
+    position: absolute;
+    border: 0;
+}
+.link-giochi::before {
+    content: "•";
+    color: #0072CE;
+    padding-right: 5px;
 }
 .hero-img {
     margin-top: 100px;
