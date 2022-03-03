@@ -16,13 +16,13 @@
 
 <body>
 
-    <header class="fixed-top">
+    <header class="fixed-top"> <!-- Sezione Barra Di Nav -->
         <div class="bg-black d-flex justify-content-end">
             <img src="./asset/img/sony_logo.svg" alt="logo sony" class="sony-logo py-3 me-3">
         </div>
 
-        <nav class="w-100 navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between">
-            <div class="container-fluid position-relative">
+        <nav class="w-100 navbar navbar-expand-lg navbar-light bg-white position d-flex justify-content-between">
+            <div class="container-fluid">
                 <a href="#"><img src="./asset/img/play_logo.svg" alt="logo playstation"
                         class="navbar-brand playstation-logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,7 +32,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown"> <!-- Singolo Elemento Menu Top -->
+                        <li class="nav-item"> <!-- Singolo Elemento Menu Top -->
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
                             <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
@@ -63,7 +63,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item dropdown"> <!-- Singolo Elemento Menu Top -->
+                        <li class="nav-item"> <!-- Singolo Elemento Menu Top -->
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
                                 <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
@@ -94,44 +94,128 @@
                                 </ul>
     
                         </li>
-                        <li class="nav-item dropdown"> <!-- Singolo Elemento Menu Top -->
+                        <li class="nav-item"> <!-- Singolo Elemento Menu Top -->
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
-                            <ul class="navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                                <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li> 
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 5</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 4</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 3</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                        </div>
+                                    </li>
+                                </ul>
                         </li>
 
-                        <li class="nav-item dropdown"> <!-- Singolo Elemento Menu Top -->
+                        <li class="nav-item"> <!-- Singolo Elemento Menu Top -->
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
-                            <ul class="navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                                <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li> 
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 5</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 4</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 3</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                        </div>
+                                    </li>
+                                </ul>
                         </li>
 
-                        <li class="nav-item dropdown"> <!-- Singolo Elemento Menu Top -->
+                        <li class="nav-item"> <!-- Singolo Elemento Menu Top -->
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Fai Acquisti</a>
-                            <ul class="navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                                <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li> 
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 5</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 4</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 3</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                        </div>
+                                    </li>
+                                </ul>
                         </li>
-                        
-                        <li class="nav-item dropdown"> <!-- Singolo Elemento Menu Top -->
+
+                        <li class="nav-item"> <!-- Singolo Elemento Menu Top -->
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
-                            <ul class="navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                                <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li> 
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 5</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 4</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 3</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                        </div>
+                                    </li>
+                                </ul>
                         </li>
                     </ul>
                 </div>
@@ -140,14 +224,35 @@
             <div class="justify-content-end container-fluid">
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
                             <a class="navbar-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">My PlayStation</a>
-                            <ul class="navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                                <ul class="dropdown-menu-custom navbar-text dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li> 
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 5</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 4</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex flex-column justify-content-center align-items-center" href="#">
+                                                <img src="./asset/img/play-menu-ico.png" alt="" class="w-75 h-75">
+                                                <span>Playstation 3</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <div class="d-flex w-25 mx-auto mb-3">
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                            <a class="dropdown-item d-flex justify-content-center link-giochi" href="#">Link Giochi</a>
+                                        </div>
+                                    </li>
+                                </ul>
                         </li>
                         <li class="nav-item">
                             <button type="button"
@@ -164,8 +269,7 @@
     </header>
 
     <main>
-        <section class="hero-img pic-1">
-            <!-- Sezione Hero -->
+        <section class="hero-img pic-1"> <!-- Sezione Hero -->
             <div class="container position-relative">
                 <div class="hero-banner1">
                     <img src="./asset/img/returnal-hero-banner-logo.png" alt="returnal" class="hero-banner-img mb-3">
@@ -179,8 +283,7 @@
             </div>
         </section>
 
-        <section class="container">
-            <!-- Sezione Scelta Videogame -->
+        <section class="container"> <!-- Sezione Scelta Videogame -->
             <div class="row py-5">
                 <div class="col-6 col-md-4 col-lg-2 py-3">
                     <img class="img-fluid thumbnail-game-logo tgl-1 tgl-active p-1"
@@ -209,8 +312,7 @@
             </div>
         </section>
 
-        <section class="py-5 container">
-            <!-- Sezione Scelta Console -->
+        <section class="py-5 container"> <!-- Sezione Scelta Console -->
             <div class="text-center">
                 <span class="text-primary text-uppercase">play has no limits</span>
                 <h1>Ecco la PlayStation 5</h1>
@@ -259,8 +361,7 @@
             </div>
         </section>
 
-        <section class="hero-img pic-2">
-            <!-- Sezione Hero2 -->
+        <section class="hero-img pic-2"> <!-- Sezione Hero2 -->
             <div class="container position-relative">
                 <div class="hero-banner2">
                     <img src="./asset/img/it-takes-two-logo.png" alt="it takes two" class="hero-banner-img mb-3">
@@ -275,8 +376,7 @@
             </div>
         </section>
 
-        <section class="nuove-uscite">
-            <!-- Sezione Nuove Uscite -->
+        <section class="nuove-uscite"> <!-- Sezione Nuove Uscite -->
             <div class="container text-white">
                 <h2 class="py-4">Nuove Uscite</h2>
                 <h3>Giochi incredibili per PS4 e PS5 disponibili ora</h3>
@@ -354,8 +454,7 @@
             </div>
         </section>
 
-        <section class="py-5 larghezza">
-            <!-- Sezione Esplora Playstation 4 -->
+        <section class="py-5 larghezza"> <!-- Sezione Esplora Playstation 4 -->
             <div class="text-center">
                 <h1>Esplora PlayStation<span class="fs-5">&reg;</span> 4</h1>
                 <p class="text-secondary pb-5">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un
@@ -386,8 +485,7 @@
             </div>
         </section>
 
-        <section class="psplus-bg">
-            <!--Sezione PlaystationPlus-->
+        <section class="psplus-bg"> <!--Sezione PlaystationPlus-->
             <div class="container">
                 <div class="row">
 
@@ -407,8 +505,7 @@
             </div>
         </section>
 
-        <section class="container text-center pt-5">
-            <!-- Sezione Sconti -->
+        <section class="container text-center pt-5"> <!-- Sezione Sconti -->
             <h1 class="pt-5">Nuovi sconti sul PlayStation Store</h1>
             <p class="text-secondary">Sconti pazzeschi. collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti
                 in un unico posto.</p>
@@ -428,8 +525,7 @@
             </div>
         </section>
 
-        <section class="bg-ps-now mt-5">
-            <!-- Sezione Playstation Now -->
+        <section class="bg-ps-now mt-5"> <!-- Sezione Playstation Now -->
             <div class="container">
                 <div class="row">
 
@@ -448,8 +544,7 @@
             </div>
         </section>
 
-        <section>
-            <!-- Sezione Social -->
+        <section> <!-- Sezione Social -->
             <h1 class="text-center py-5">Seguici sui social media</h1>
             <div class="container row mx-auto w-100 pb-5">
                 <div class="col-6 col-sm-3">

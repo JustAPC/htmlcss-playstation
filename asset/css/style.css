@@ -19,6 +19,12 @@
     height: 1em;
     margin-bottom: 2px;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+}
 .access-button {
     background-color: rgb(54,54,54);
 }
@@ -28,14 +34,17 @@
     outline-offset: 3px;
 }
 .dropdown-menu[data-bs-popper] {
-    top: 100%;
-    left: -69px;
+    top: 98%;
+    left: 0;
     margin-top: .125rem;    
 }
 .dropdown-menu-custom {
-    width: 101vw;
+    width: 100vw;
     position: absolute;
     border: 0;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: white;
 }
 .link-giochi::before {
     content: "•";
@@ -88,16 +97,12 @@
 .thumbnail-game-logo:active {
     border: 2px solid #0072CE;
 }
-.tgl-1:hover {
-    animation: tgl-movement 1s linear;
+.tgl-1 {
+    transition: 1s;
 }
-@keyframes tgl-movement {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-40px);
-    }
+.tgl-1:hover {
+    transform: translateY(-35px);
+    animation-fill-mode: forwards;
 }
 .info-button:hover {
     outline: 2px solid rgb(93, 29, 124);
